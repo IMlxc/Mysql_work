@@ -1,0 +1,1 @@
+-IF:/Code/Mysql_work/include/mysql -IF:/Code/Mysql_work/include/db -IF:/Code/Mysql_work/include/model -IF:/Code/Mysql_work/include/log -IF:/Code/Mysql_work/include/thirdparty

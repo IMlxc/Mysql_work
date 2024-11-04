@@ -1,0 +1,5 @@
+F:/Code/Mysql_work/build/CMakeFiles/edit_cache.dir
+F:/Code/Mysql_work/build/CMakeFiles/rebuild_cache.dir
+F:/Code/Mysql_work/build/src/CMakeFiles/main.dir
+F:/Code/Mysql_work/build/src/CMakeFiles/edit_cache.dir
+F:/Code/Mysql_work/build/src/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "F:/Code/Mysql_work/build/src",
+  "command": "D:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -g -o CMakeFiles\\main.dir\\main.cpp.obj -c F:\\Code\\Mysql_work\\src\\main.cpp",
+  "file": "F:/Code/Mysql_work/src/main.cpp",
+  "output": "src/CMakeFiles/main.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/Code/Mysql_work/build/src",
+  "command": "D:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -g -o CMakeFiles\\main.dir\\db\\db.cpp.obj -c F:\\Code\\Mysql_work\\src\\db\\db.cpp",
+  "file": "F:/Code/Mysql_work/src/db/db.cpp",
+  "output": "src/CMakeFiles/main.dir/db/db.cpp.obj"
+},
+{
+  "directory": "F:/Code/Mysql_work/build/src",
+  "command": "D:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -g -o CMakeFiles\\main.dir\\log\\log.cpp.obj -c F:\\Code\\Mysql_work\\src\\log\\log.cpp",
+  "file": "F:/Code/Mysql_work/src/log/log.cpp",
+  "output": "src/CMakeFiles/main.dir/log/log.cpp.obj"
+},
+{
+  "directory": "F:/Code/Mysql_work/build/src",
+  "command": "D:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -g -o CMakeFiles\\main.dir\\model\\controlmodel.cpp.obj -c F:\\Code\\Mysql_work\\src\\model\\controlmodel.cpp",
+  "file": "F:/Code/Mysql_work/src/model/controlmodel.cpp",
+  "output": "src/CMakeFiles/main.dir/model/controlmodel.cpp.obj"
+}
+]
