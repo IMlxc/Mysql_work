@@ -2,6 +2,11 @@
 #define DB_HPP
 
 #include "mysql.h"
+#include "log.hpp"
+
+#include <iostream>
+
+
 #include <string>
 
 extern std::string host;
@@ -23,12 +28,13 @@ public:
     // 更新操作
     bool update(std::string sql);
     // 查询操作
-    MYSQL_RES *query(std::string sql);
+    MYSQL_RES* query(std::string sql);
     // 获取连接
     MYSQL *getConnection();
 
 private:
     MYSQL *_conn;
+    Logger logger;
 };
 
 #endif

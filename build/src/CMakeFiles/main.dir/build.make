@@ -116,27 +116,27 @@ src/CMakeFiles/main.dir/log/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/log/log.cpp.s"
 	cd /d F:\Code\Mysql_work\build\src && D:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Code\Mysql_work\src\log\log.cpp -o CMakeFiles\main.dir\log\log.cpp.s
 
-src/CMakeFiles/main.dir/model/controlmodel.cpp.obj: src/CMakeFiles/main.dir/flags.make
-src/CMakeFiles/main.dir/model/controlmodel.cpp.obj: src/CMakeFiles/main.dir/includes_CXX.rsp
-src/CMakeFiles/main.dir/model/controlmodel.cpp.obj: F:/Code/Mysql_work/src/model/controlmodel.cpp
-src/CMakeFiles/main.dir/model/controlmodel.cpp.obj: src/CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Code\Mysql_work\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/main.dir/model/controlmodel.cpp.obj"
-	cd /d F:\Code\Mysql_work\build\src && D:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/main.dir/model/controlmodel.cpp.obj -MF CMakeFiles\main.dir\model\controlmodel.cpp.obj.d -o CMakeFiles\main.dir\model\controlmodel.cpp.obj -c F:\Code\Mysql_work\src\model\controlmodel.cpp
+src/CMakeFiles/main.dir/model/table.cpp.obj: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/model/table.cpp.obj: src/CMakeFiles/main.dir/includes_CXX.rsp
+src/CMakeFiles/main.dir/model/table.cpp.obj: F:/Code/Mysql_work/src/model/table.cpp
+src/CMakeFiles/main.dir/model/table.cpp.obj: src/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\Code\Mysql_work\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/main.dir/model/table.cpp.obj"
+	cd /d F:\Code\Mysql_work\build\src && D:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/main.dir/model/table.cpp.obj -MF CMakeFiles\main.dir\model\table.cpp.obj.d -o CMakeFiles\main.dir\model\table.cpp.obj -c F:\Code\Mysql_work\src\model\table.cpp
 
-src/CMakeFiles/main.dir/model/controlmodel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/model/controlmodel.cpp.i"
-	cd /d F:\Code\Mysql_work\build\src && D:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Code\Mysql_work\src\model\controlmodel.cpp > CMakeFiles\main.dir\model\controlmodel.cpp.i
+src/CMakeFiles/main.dir/model/table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/model/table.cpp.i"
+	cd /d F:\Code\Mysql_work\build\src && D:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Code\Mysql_work\src\model\table.cpp > CMakeFiles\main.dir\model\table.cpp.i
 
-src/CMakeFiles/main.dir/model/controlmodel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/model/controlmodel.cpp.s"
-	cd /d F:\Code\Mysql_work\build\src && D:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Code\Mysql_work\src\model\controlmodel.cpp -o CMakeFiles\main.dir\model\controlmodel.cpp.s
+src/CMakeFiles/main.dir/model/table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/model/table.cpp.s"
+	cd /d F:\Code\Mysql_work\build\src && D:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Code\Mysql_work\src\model\table.cpp -o CMakeFiles\main.dir\model\table.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.obj" \
 "CMakeFiles/main.dir/db/db.cpp.obj" \
 "CMakeFiles/main.dir/log/log.cpp.obj" \
-"CMakeFiles/main.dir/model/controlmodel.cpp.obj"
+"CMakeFiles/main.dir/model/table.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -144,7 +144,7 @@ main_EXTERNAL_OBJECTS =
 F:/Code/Mysql_work/bin/main.exe: src/CMakeFiles/main.dir/main.cpp.obj
 F:/Code/Mysql_work/bin/main.exe: src/CMakeFiles/main.dir/db/db.cpp.obj
 F:/Code/Mysql_work/bin/main.exe: src/CMakeFiles/main.dir/log/log.cpp.obj
-F:/Code/Mysql_work/bin/main.exe: src/CMakeFiles/main.dir/model/controlmodel.cpp.obj
+F:/Code/Mysql_work/bin/main.exe: src/CMakeFiles/main.dir/model/table.cpp.obj
 F:/Code/Mysql_work/bin/main.exe: src/CMakeFiles/main.dir/build.make
 F:/Code/Mysql_work/bin/main.exe: src/CMakeFiles/main.dir/linkLibs.rsp
 F:/Code/Mysql_work/bin/main.exe: src/CMakeFiles/main.dir/objects1.rsp

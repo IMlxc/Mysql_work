@@ -1,10 +1,12 @@
-#include "mysql.h"
-#include "db.hpp"
 #include <iostream>
 #include <string>
-
 #include "json.hpp"
 using namespace nlohmann;
+
+#include "mysql.h"
+#include "db.hpp"
+#include "table.hpp"
+
 
 // 数据库配置信息, 默认
 const std::string init_host = "127.0.0.1";
@@ -39,28 +41,14 @@ int main(int argc, char* argv[])
 	// }
 
 
-	MySQL* mysql = new MySQL();
-	if (!mysql->connect())
+	Table* T = new Table("student");
+	std::string res = T->Query_data("select * from Student");
+
+	if (!res.empty())
 	{
-		return -1;
+		std::cout << res << std::endl;
 	}
-
-	// // mysql->update("insert into student values(1, 'Xinkong')");
-	// MYSQL_RES* res = mysql->query("select * from student");
-
-	// MYSQL_ROW row;
-	// json data;
-	// while((row = mysql_fetch_row(res)) != NULL)
-	// {
-	// 	data.push_back({
-	// 		{"id", std::atoi(row[0])},
-	// 		{"name", row[1]}
-	// 	});
-	// }
-
-	// std::cout << data.dump() << std::endl;
 	while(true);
-
 	return 0;
 
 }

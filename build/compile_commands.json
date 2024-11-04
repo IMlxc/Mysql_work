@@ -19,8 +19,8 @@
 },
 {
   "directory": "F:/Code/Mysql_work/build/src",
-  "command": "D:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -g -o CMakeFiles\\main.dir\\model\\controlmodel.cpp.obj -c F:\\Code\\Mysql_work\\src\\model\\controlmodel.cpp",
-  "file": "F:/Code/Mysql_work/src/model/controlmodel.cpp",
-  "output": "src/CMakeFiles/main.dir/model/controlmodel.cpp.obj"
+  "command": "D:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -g -o CMakeFiles\\main.dir\\model\\table.cpp.obj -c F:\\Code\\Mysql_work\\src\\model\\table.cpp",
+  "file": "F:/Code/Mysql_work/src/model/table.cpp",
+  "output": "src/CMakeFiles/main.dir/model/table.cpp.obj"
 }
 ]

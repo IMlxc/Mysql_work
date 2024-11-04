@@ -1,8 +1,5 @@
-#include "log.hpp"
 #include "db.hpp"
-#include <iostream>
-
-Logger logger;
+#include "log.hpp"
 
 // 初始化数据库连接
 MySQL::MySQL()
@@ -14,6 +11,8 @@ MySQL::~MySQL()
 {
     if (_conn != nullptr)
         mysql_close(_conn);
+    // if (logger != NULL)
+        // logger = NULL;
 }
 // 连接数据库
 bool MySQL::connect()

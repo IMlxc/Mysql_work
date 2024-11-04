@@ -201,29 +201,29 @@ main.cpp.s:
 	cd /d F:\Code\Mysql_work\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\main.dir\build.make src/CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-model/controlmodel.obj: model/controlmodel.cpp.obj
-.PHONY : model/controlmodel.obj
+model/table.obj: model/table.cpp.obj
+.PHONY : model/table.obj
 
 # target to build an object file
-model/controlmodel.cpp.obj:
-	cd /d F:\Code\Mysql_work\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\main.dir\build.make src/CMakeFiles/main.dir/model/controlmodel.cpp.obj
-.PHONY : model/controlmodel.cpp.obj
+model/table.cpp.obj:
+	cd /d F:\Code\Mysql_work\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\main.dir\build.make src/CMakeFiles/main.dir/model/table.cpp.obj
+.PHONY : model/table.cpp.obj
 
-model/controlmodel.i: model/controlmodel.cpp.i
-.PHONY : model/controlmodel.i
+model/table.i: model/table.cpp.i
+.PHONY : model/table.i
 
 # target to preprocess a source file
-model/controlmodel.cpp.i:
-	cd /d F:\Code\Mysql_work\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\main.dir\build.make src/CMakeFiles/main.dir/model/controlmodel.cpp.i
-.PHONY : model/controlmodel.cpp.i
+model/table.cpp.i:
+	cd /d F:\Code\Mysql_work\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\main.dir\build.make src/CMakeFiles/main.dir/model/table.cpp.i
+.PHONY : model/table.cpp.i
 
-model/controlmodel.s: model/controlmodel.cpp.s
-.PHONY : model/controlmodel.s
+model/table.s: model/table.cpp.s
+.PHONY : model/table.s
 
 # target to generate assembly for a file
-model/controlmodel.cpp.s:
-	cd /d F:\Code\Mysql_work\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\main.dir\build.make src/CMakeFiles/main.dir/model/controlmodel.cpp.s
-.PHONY : model/controlmodel.cpp.s
+model/table.cpp.s:
+	cd /d F:\Code\Mysql_work\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\main.dir\build.make src/CMakeFiles/main.dir/model/table.cpp.s
+.PHONY : model/table.cpp.s
 
 # Help Target
 help:
@@ -243,9 +243,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... model/controlmodel.obj
-	@echo ... model/controlmodel.i
-	@echo ... model/controlmodel.s
+	@echo ... model/table.obj
+	@echo ... model/table.i
+	@echo ... model/table.s
 .PHONY : help
 
 
