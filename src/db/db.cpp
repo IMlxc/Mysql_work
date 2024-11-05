@@ -1,3 +1,13 @@
+/*
+ * @Author: Xinkong 2790109834@qq.com
+ * @Date: 2024-10-30 21:01:11
+ * @LastEditors: Xinkong 2790109834@qq.com
+ * @LastEditTime: 2024-11-04 23:50:32
+ * @FilePath: \Mysql_work\src\db\db.cpp
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
+ */
 #include "db.hpp"
 #include "log.hpp"
 
@@ -32,13 +42,11 @@ bool MySQL::connect()
         // 将数据库作为gbk访问
         mysql_options(_conn, MYSQL_SET_CHARSET_NAME, "GBK");
 
-        logger << "connect Mysql Successed !";
+        logger << "Mysql 连接成功 !";
     }
     else
     {
-        std::cerr << "connect Mysql failed !" << std::endl;
-
-        logger << mysql_error(_conn);
+        logger << "Mysql 连接失败 !" << mysql_error(_conn);
     }
     return p;
 }
@@ -48,9 +56,8 @@ bool MySQL::update(std::string sql)
 {
     if (mysql_query(_conn, sql.c_str()))
     {
-        std::cerr << sql << "update failed" << std::endl;
+        logger << "更新失败" << mysql_error(_conn);
 
-        logger << mysql_error(_conn);
         return false;
     }
     return true;
@@ -60,8 +67,7 @@ MYSQL_RES *MySQL::query(std::string sql)
 {
     if (mysql_query(_conn, sql.c_str()))
     {
-        std::cerr << sql << "query failed!" << std::endl;
-        logger << mysql_error(_conn);
+        logger << "查询失败" << mysql_error(_conn);
         return nullptr;
     }
     return mysql_use_result(_conn);

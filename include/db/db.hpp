@@ -1,3 +1,13 @@
+/*
+ * @Author: Xinkong 2790109834@qq.com
+ * @Date: 2024-10-30 20:52:25
+ * @LastEditors: Xinkong 2790109834@qq.com
+ * @LastEditTime: 2024-11-04 23:45:46
+ * @FilePath: \Mysql_work\include\db\db.hpp
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
+ */
 #ifndef DB_HPP
 #define DB_HPP
 
@@ -9,6 +19,9 @@
 
 #include <string>
 
+/**
+ * @description: 定义连接Mysql的基本信息
+ */
 extern std::string host;
 extern std::string user;
 extern std::string password;

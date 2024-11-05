@@ -1,9 +1,18 @@
-创建基类, 对每个table有着基本的4个操作
-    
-    查询操作
-    删除操作
-    增加操作
-    修改操作
+/*
+ * @Author: Xinkong 2790109834@qq.com
+ * @Date: 2024-11-04 21:40:23
+ * @LastEditors: Xinkong 2790109834@qq.com
+ * @LastEditTime: 2024-11-05 15:41:09
+ * @FilePath: \Mysql_work\日志
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
+ */
 
+1.创建基类, 对每个table有着基本的4个操作
+    查询操作    
+    删除操作    delete from `table` where id = %s;
+    增加操作    insert into `table` values(%s, %s, %s,%s);
+    修改操作    update `table` set name = %s where id = %s
 
-; 测试 -by zes - 2024/11/4 - 21:12
+2. 
