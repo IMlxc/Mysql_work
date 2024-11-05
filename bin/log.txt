@@ -1,5 +1,1 @@
-2024-11-04 20:27:22  connect Mysql Successed !
-2024-11-04 20:27:22  Table 'txt.tudent' doesn't exist
-2024-11-04 20:27:22  Table 'txt.tudent' doesn't exist
-2024-11-04 20:27:48  connect Mysql Successed !
-2024-11-04 21:36:53  connect Mysql Successed !
+2024-11-05 19:53:54  Mysql 连接成功 !
