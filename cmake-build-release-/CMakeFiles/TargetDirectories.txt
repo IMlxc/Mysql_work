@@ -1,0 +1,3 @@
+D:/codeingforme/Zes_oj/Mysql_work/cmake-build-release-/CMakeFiles/ALL_BUILD.dir
+D:/codeingforme/Zes_oj/Mysql_work/cmake-build-release-/CMakeFiles/ZERO_CHECK.dir
+D:/codeingforme/Zes_oj/Mysql_work/cmake-build-release-/src/CMakeFiles/main.dir

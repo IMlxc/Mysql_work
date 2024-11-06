@@ -1,0 +1,5 @@
+D:/codeingforme/Zes_oj/Mysql_work/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/codeingforme/Zes_oj/Mysql_work/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/codeingforme/Zes_oj/Mysql_work/cmake-build-debug/src/CMakeFiles/main.dir
+D:/codeingforme/Zes_oj/Mysql_work/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+D:/codeingforme/Zes_oj/Mysql_work/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
