@@ -1,8 +1,13 @@
 /*
  * @Author: Xinkong 2790109834@qq.com
  * @Date: 2024-11-04 21:40:23
+<<<<<<< HEAD
  * @LastEditors: Xinkong 2790109834@qq.com
  * @LastEditTime: 2024-11-05 21:44:44
+=======
+ * @LastEditors: Z-Es-0 zes18642300628@qq.com
+ * @LastEditTime: 2024-11-07 15:28:37
+>>>>>>> 28d73e17166135b1dcbf7b5b7964581eef95c6b6
  * @FilePath: \Mysql_work\日志
  * @Description: 
  * 
@@ -16,3 +21,4 @@
     修改操作    update `table` set name = %s where id = %s
 
 2. 
+    测试2 ; 20224/11/7 15:28
