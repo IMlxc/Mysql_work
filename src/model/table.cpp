@@ -100,7 +100,7 @@ bool Table::Update_data(json data)
 }
 
 // HACK 调用MySQL类的query实现
-// 查询操作
+// 查询操作1
 std::string Table::Query_data(json data)
 {
 
