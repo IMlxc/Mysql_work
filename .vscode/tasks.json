@@ -11,11 +11,6 @@
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "F:\\Code\\Mysql_work\\include",
-                "-L",
-                "F:\\Code\\Mysql_work\\lib",
-                "-l",
-                "libmysql",
             ],
             "options": {
                 "cwd": "${fileDirname}"

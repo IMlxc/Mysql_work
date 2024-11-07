@@ -2,7 +2,7 @@
  * @Author: Xinkong 2790109834@qq.com
  * @Date: 2024-10-30 23:25:09
  * @LastEditors: Xinkong 2790109834@qq.com
- * @LastEditTime: 2024-11-05 19:49:33
+ * @LastEditTime: 2024-11-05 23:52:51
  * @FilePath: \Mysql_work\src\model\table.cpp
  * @Description: 
  * 
@@ -31,11 +31,13 @@ Table::~Table()
     _column = nullptr;
 }
 
-
 // 例子 "insert into txt(id, name), values(1, "Xin")"
 // 其中txt的column有多个列, 每一个列对应一个value => json形式
 
-// 添加加数据
+/**
+ * @description: 添加数据
+ * @return {bool} 操作成功是否
+ */
 bool Table::Insert_data(json data)
 {
     MySQL* mysql = new MySQL();
@@ -67,7 +69,6 @@ bool Table::Insert_data(json data)
             columns_str.substr(1, columns_str.size() - 2).c_str(), 
             values_str.substr(1, values_str.size() - 2).c_str()
     );
-
     // 调用update, 更新数据库
     return mysql->update(sql);
 }

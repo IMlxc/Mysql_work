@@ -2,14 +2,13 @@
  * @Author: Xinkong 2790109834@qq.com
  * @Date: 2024-10-30 21:01:11
  * @LastEditors: Xinkong 2790109834@qq.com
- * @LastEditTime: 2024-11-04 23:50:32
+ * @LastEditTime: 2024-11-05 23:37:06
  * @FilePath: \Mysql_work\src\db\db.cpp
  * @Description: 
  * 
  * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
  */
 #include "db.hpp"
-#include "log.hpp"
 
 // 初始化数据库连接
 MySQL::MySQL()
@@ -21,8 +20,6 @@ MySQL::~MySQL()
 {
     if (_conn != nullptr)
         mysql_close(_conn);
-    // if (logger != NULL)
-        // logger = NULL;
 }
 // 连接数据库
 bool MySQL::connect()
@@ -36,14 +33,13 @@ bool MySQL::connect()
 
     if (p != nullptr)
     {
-        // C和C++代码默认编码为ascii码，如果不修改就是中文乱码
-        mysql_query(_conn, "set names gbk");
 
         // 将数据库作为gbk访问
         mysql_options(_conn, MYSQL_SET_CHARSET_NAME, "GBK");
 
         logger << "Mysql 连接成功 !";
     }
+    
     else
     {
         logger << "Mysql 连接失败 !" << mysql_error(_conn);
@@ -57,7 +53,6 @@ bool MySQL::update(std::string sql)
     if (mysql_query(_conn, sql.c_str()))
     {
         logger << "更新失败" << mysql_error(_conn);
-
         return false;
     }
     return true;

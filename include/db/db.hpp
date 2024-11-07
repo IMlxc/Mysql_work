@@ -2,7 +2,7 @@
  * @Author: Xinkong 2790109834@qq.com
  * @Date: 2024-10-30 20:52:25
  * @LastEditors: Xinkong 2790109834@qq.com
- * @LastEditTime: 2024-11-04 23:45:46
+ * @LastEditTime: 2024-11-05 21:28:59
  * @FilePath: \Mysql_work\include\db\db.hpp
  * @Description: 
  * 
@@ -27,7 +27,6 @@ extern std::string user;
 extern std::string password;
 extern std::string db;
 extern std::string port;
-
 
 class MySQL
 {
