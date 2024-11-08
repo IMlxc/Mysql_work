@@ -83,7 +83,43 @@ bool Table::Delete_data(json data)
     {
         return false;
     }
-    return true;
+
+    std::string condition; //存放要删的条件
+
+    for(auto&[key, value] : data.items())
+    {
+        condition += key + "=";
+
+        if(value.is_string()){//判断是不是字符串类型
+            condition += "'" + value.get<std::string>() + "'";
+        }
+
+        else if(value.is_number())//是数字类型的话
+        {
+            condition += std::to_string(value.get<int>()); //将数字转换为字符串
+        }
+
+        else{
+            condition += value.dump(); //其他类型会用dump自动转化为字符串
+        }
+
+        condition += " and ";
+    }
+
+    //移除多余的and
+    if(!condition.empty())
+    {
+        condition.erase(condition.size() - 5);
+    }
+    char sql[1024];
+    sprintf(sql, "delete from %s where %s;",
+            _table.c_str(),
+            condition.c_str()
+    );
+
+    std::cout << "generate sql: " << sql << std::endl; //生成一遍MySQL语句便于查找错误
+
+    return mysql->update(sql);
 }
 
 // TODO 调用MySQL类的update实现
